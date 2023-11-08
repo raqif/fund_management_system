@@ -1,0 +1,12 @@
+[
+  {
+    "fund_id": 12345,
+    "fund_name": "raqif_invest",
+    "fund_manager": "raqif",
+    "description": "raqif investment",
+    "nav": 1.11,
+    "creation_date": 12345,
+    "performance": 1.0,
+    "id": 0
+  }
+]
