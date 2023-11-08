@@ -16,11 +16,11 @@ curl -X GET http://localhost:5004/funds
 1. clone the repository.
 2. create env: `conda create --name aham` and activate: `conda activate aham`
 3. install requirements: `pip3 install -r requirements.txt`
-4. run the API flask server: `python3 app.py`
+4. run the API flask server: `python3 app_sql.py`
 5. run `migration_script` to import data form json into db.
 6. run `check_migration` to check imported data.
-7. open another terminal for automatic test API flask server and run: `pytest`
-8. open another terminal to manually check API run using curl commands provided and check request and response examples.
+7. open another terminal to manually check API run using curl commands provided and check request and response examples.
+8. open another terminal for automatic test API flask server and run: `pytest` (running `pytest` will clear database before starting test cases)
 
 ## API endpoints
 
